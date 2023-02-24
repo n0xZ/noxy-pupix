@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scrap": "ts-node index.ts",
+    "scrap": "ts-node  ./src/index.ts",
     "e2e": "playwright test --debug"
   },
   "keywords": [],
