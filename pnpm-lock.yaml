@@ -1,7 +1,6 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@playwright/test': ^1.31.1
   '@types/node-cron': ^3.0.7
   '@types/node-notifier': ^8.0.2
   '@types/nodemailer': ^6.4.7
@@ -18,7 +17,6 @@ dependencies:
   playwright: 1.31.1
 
 devDependencies:
-  '@playwright/test': 1.31.1
   '@types/node-cron': 3.0.7
   '@types/node-notifier': 8.0.2
   '@types/nodemailer': 6.4.7
@@ -27,17 +25,6 @@ devDependencies:
   typescript: 4.9.5
 
 packages:
-
-  /@playwright/test/1.31.1:
-    resolution: {integrity: sha512-IsytVZ+0QLDh1Hj83XatGp/GsI1CDJWbyDaBGbainsh0p2zC7F4toUocqowmjS6sQff2NGT3D9WbDj/3K2CJiA==}
-    engines: {node: '>=14'}
-    hasBin: true
-    dependencies:
-      '@types/node': 18.14.1
-      playwright-core: 1.31.1
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
 
   /@rauschma/stringio/1.4.0:
     resolution: {integrity: sha512-3uor2f/MXZkmX5RJf8r+OC3WvZVzpSme0yyL0rQDPEnatE02qRcqwEwnsgpgriEck0S/n4vWtUd6tTtrJwk45Q==}
@@ -78,14 +65,6 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /node-cron/3.0.2:
     resolution: {integrity: sha512-iP8l0yGlNpE0e6q1o185yOApANRe47UPbLf4YxfbiNHt/RU5eBcGB/e0oudruheSf+LQeDMezqC5BVAb5wwRcQ==}
     engines: {node: '>=6.0.0'}
@@ -110,6 +89,7 @@ packages:
     resolution: {integrity: sha512-JTyX4kV3/LXsvpHkLzL2I36aCdml4zeE35x+G5aPc4bkLsiRiQshU5lWeVpHFAuC8xAcbI6FDcw/8z3q2xtJSQ==}
     engines: {node: '>=14'}
     hasBin: true
+    dev: false
 
   /playwright/1.31.1:
     resolution: {integrity: sha512-zKJabsIA2rvOwJ12lGTqWv4HVJzlfw2JtUvO4hAr7J8UXQZ1qEPpX20E1vcz/9fotnTkwgqp3CVdIBwptBN3Fg==}
