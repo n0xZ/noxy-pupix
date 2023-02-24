@@ -14,5 +14,5 @@
 
 		"skipLibCheck": true
 	},
-	"include": ["node_modules/@types/puppeteer/index.d.ts"]
+	"include": ["@types/nodemailer"]
 }
